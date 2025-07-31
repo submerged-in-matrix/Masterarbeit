@@ -1,0 +1,40 @@
+%load('stiffness_voltage.txt');
+% load('stiffness_displacement.txt');
+% figure;
+% 
+% plot(stiffness_displacement(:,2), stiffness_displacement(:,1), 'r','LineWidth', 1)
+% 
+% %hold on;
+% 
+% %plot(stiffness_voltage(:,3), stiffness_voltage(:,2), 'b','LineWidth', 1)
+% 
+% title('Non-dimensional stiffness vs. non-dimensional displacement')
+% xlabel('Non-dimensional displacement (U)')
+% ylabel('Non-dimensional stiffness force')
+% xlim([-1  1])
+% line([0, 0], ylim, 'Color', 'k', 'LineStyle', '--'); % Vertical line
+% line(xlim, [0, 0], 'Color', 'k', 'LineStyle', '--'); % Horizontal line
+% %lgd = legend('Nonlinear stiffness', 'linear stiffness');
+% lgd = legend('linear stiffness');
+% set(lgd, 'Location', 'north', 'Orientation', 'vertical', 'Units', 'normalized', 'Position', [-0.5, 0.95, -0.1, -0.1]);
+% %hold off;
+
+% load('phase_displacement.txt')
+% figure;
+% plot(phase_displacement(1:500, 1), phase_displacement(1:500, 2)) 
+% line([0, 0], ylim, 'Color', 'k', 'LineStyle', '--'); % Vertical line
+% line(xlim, [0, 0], 'Color', 'k', 'LineStyle', '--'); % Horizontal line
+% title('Phase portrait of displacement dataset')
+% xlabel('Non-dimensional displacement (U)')
+% ylabel('Non-dimensional velocity (Udot)')
+% xlim([-1.1  1.1])
+
+load('phase_voltage.txt')
+figure;
+plot(phase_displacement(:, 1), phase_displacement(:, 2)) 
+line([0, 0], ylim, 'Color', 'k', 'LineStyle', '--'); % Vertical line
+line(xlim, [0, 0], 'Color', 'k', 'LineStyle', '--'); % Horizontal line
+title('Phase portrait of voltage dataset')
+xlabel('Non-dimensional voltage (U)')
+ylabel('Non-dimensional voltage generation rate(Udot)')
+xlim([-1.1  1.1])
