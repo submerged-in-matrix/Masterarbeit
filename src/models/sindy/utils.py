@@ -1,5 +1,6 @@
 # Finding best dataset fragment for training and validation. 
-# Only shown for the displacement training dataset which is also the same approach for the voltage dataset.
+# Only shown for the displacement training dataset which is also the same approach for the voltage dataset or 
+# for choosing best data for validation and test.
 from pathlib import Path
 import numpy as np
 import pandas as pd
