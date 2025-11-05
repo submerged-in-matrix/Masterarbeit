@@ -1,0 +1,29 @@
+# bytecode / caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# virtual envs
+.env/
+.venv/
+*.egg-info/
+
+# large artifacts
+data/raw/
+data/interim/
+data/processed/
+results/
+outputs/
+models/
+checkpoints/
+*.h5
+*.pt
+*.pth
+*.pkl
+*.joblib
+*.npz
+*.npy
+*.csv
+*.png
+*.jpg
+*.pdf
