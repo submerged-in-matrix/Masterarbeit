@@ -1,21 +1,21 @@
-# bytecode / caches
+# --- bytecode / caches ---
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
 
-# virtual envs
+# --- virtual envs ---
 .env/
 .venv/
 *.egg-info/
 
-# large artifacts
+# --- large artifacts & outputs ---
 data/raw/
 data/interim/
 data/processed/
 results/
 outputs/
-models/
-checkpoints/
+/models/              # ignore only top-level 'models' dir (artifacts)
+/checkpoints/          # ignore only top-level 'checkpoints' dir (artifacts)
 *.h5
 *.pt
 *.pth
@@ -27,3 +27,7 @@ checkpoints/
 *.png
 *.jpg
 *.pdf
+
+# --- exceptions: always keep source code tracked ---
+!src/models/**
+!scripts/**
