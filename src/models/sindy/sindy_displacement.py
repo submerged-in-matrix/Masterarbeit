@@ -1,12 +1,8 @@
 #!/usr/bin/env python
 # coding: utf-8
-
 # ### sindy prediction of the collected data 
-
 # First step: Load your necessary libraries for running the code
-
 # In[1]:
-
 
 import numpy as np
 import pysindy as ps
