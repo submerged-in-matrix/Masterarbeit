@@ -1,0 +1,28 @@
+from numpy import array
+from data.Processing.ANNs.load_data import x_rec
+
+def split_sequence(sequence, n_steps):
+	X, y = list(), list()
+	for i in range(len(sequence)):
+		# find the end of this pattern
+		end_ix = i + n_steps
+		# check if we are beyond the sequence
+		if end_ix > len(sequence)-1:
+			break
+		# gather input and output parts of the pattern
+		seq_x, seq_y = sequence[i:end_ix], sequence[end_ix]
+		X.append(seq_x)
+		y.append(seq_y)
+	return array(X), array(y)
+
+# define input sequence
+
+# choose a number of time steps
+n_steps = 3
+# split into samples
+X, y = split_sequence(x_rec[40000:42004, 0], n_steps)
+# summarize the data
+# for i in range(len(X)):
+#  	print(X[i], y[i])
+print(X.shape)
+print(y.shape)
