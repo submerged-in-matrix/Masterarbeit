@@ -16,7 +16,7 @@
 *Master's thesis at Christian-Albrechts-Universität zu Kiel, Faculty of Engineering*
 *Chair for Multicomponent Materials · Department of Material Science*
 
-**Md Saidul Islam** · Supervised by Mohammad Sadeghi & Franz Faupel
+**Md Saidul Islam** · Supervised by Mohammad Sadeghi, Franz Faupel, Stephan Wulfinghoff
 
 </div>
 
@@ -143,7 +143,7 @@ Henrik Wolffrom (Chair for High Frequency Engineering, Department of Electrical 
 
 **Presented at AIMSE 2023** · Christian-Albrechts-Universität zu Kiel
 
-📬 Contact: saidi@tf.uni-kiel.de
+📬 Contact: sayeed.shahriar@gmail.com
 
 </div>
 
