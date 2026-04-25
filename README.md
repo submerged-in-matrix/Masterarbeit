@@ -64,7 +64,7 @@ Both methods are evaluated on two distinct sensor readout configurations:
 ```
 Masterarbeit/
 ├── data/
-│   └── Pre-Processing/       # Raw & pre-processed ME sensor datasets
+│   └── Pre-Processing/       # Raw & pre-processed (FFT transformation) ME sensor datasets with harmonics
 ├── notebooks/                 # Jupyter notebooks for exploration & visualization
 ├── src/                       # Core Python source code
 │   ├── SINDy implementation   # Sparse regression, library construction, optimization
