@@ -84,9 +84,9 @@ sine2.SamplesPerFrame = rectime/sample_time;
 
 
 % Creation of Excitation Signal (Chirp function)
-% startfreq =7000;
-% endfreq = 8000;
-% endfreqedit= endfreq-startfreq;
+startfreq =7000;
+endfreq = 8000;
+endfreqedit= endfreq-startfreq;
 
 % chirpel                       = dsp.Chirp;    % Create Chirp Wave Object
 % chirpel.Type                  ='Linear'; % Specify the frequency sweep type as Swept cosine, Linear, Logarithmic, or Quadratic
