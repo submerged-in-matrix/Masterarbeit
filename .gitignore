@@ -9,9 +9,7 @@ __pycache__/
 *.egg-info/
 
 # --- large artifacts & outputs ---
-data/raw/
-data/interim/
-data/processed/
+
 results/
 outputs/
 /models/              # ignore only top-level 'models' dir (artifacts)
